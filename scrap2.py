@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import time
 import requests
 from playsound import playsound
-import discord
+
 
 
 i=0
@@ -25,7 +25,6 @@ while True:
 	if txt.strip() !="NATIONAL TESTING AGENCY JEE – 2022 (Session 2) – PROVISIONAL FINAL KEY B.E/B.Tech.(Paper I)":
 		f=0
 		while f < 4:
-			discord.msg('bitch its doomsday')
 			f=f+1
 		playsound('buzzer.mp3')
 	else:
